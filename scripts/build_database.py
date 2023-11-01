@@ -1,0 +1,26 @@
+import os
+import duckdb
+from utils import read_file
+
+con = duckdb.connect('databases/test.db')
+
+def create_table(query_name):
+    if not os.path.exists(f'queries/{query_name}.sql'):
+        raise ValueError(f'Query {query_name} does not exist')
+    creation_string = (
+    f'''
+    CREATE OR REPLACE TABLE {query_name} AS (
+    {read_file(f'queries/{query_name}.sql')}
+    )
+    ''')
+    con.execute(creation_string)
+    print(f'Table {query_name} created')
+    return con.sql(f'select * from {query_name}')
+
+print(
+    create_table('regions_without_service_saves')
+)
+
+print(
+    create_table('regions_without_service')
+)

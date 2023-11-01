@@ -1,0 +1,7 @@
+from utils import save_file
+
+# Para descargar versiones locales de los archivos para evitar hit el servidor de GitHub todo el tiempo
+
+
+save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/regionsWithoutService_historical.parquet',
+          'samples/regionsWithoutService_historical.parquet')

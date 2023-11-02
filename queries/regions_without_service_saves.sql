@@ -23,4 +23,4 @@ select *
 from all_timestamps
 left join initial_table
 using ("timestamp")
-order by "timestamp", timestamp_saved, "type", region_name
+-- order by "timestamp", timestamp_saved, "type", region_name

@@ -32,3 +32,5 @@ Variable "type" distingue filas que representan valores regionales ('region') de
 
 Otro detalle es que las dos variables de porcentaje no estan normalizadas. Un valor de 100% corresponde a un 100.0 en vez de 1.0. Esto es para mantenerse fiel a como LUMA presenta el dato. Si un número más preciso es requerido, recalcule los porcentajes con las columnas de totales de clientes.
 
+El orden de variables recomendado para sort la tabla es: "timestamp", "type", "region_name"
+

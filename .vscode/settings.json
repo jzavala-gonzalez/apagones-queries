@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "DuckDB - Memory",
+            "accessMode": "Read Only",
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "databaseFilePath": ":memory:"
+        }
+    ]
+}

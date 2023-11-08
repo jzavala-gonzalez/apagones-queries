@@ -24,3 +24,7 @@ print(
 print(
     create_table('regions_without_service')
 )
+
+print(
+   create_table('genera_metrics')
+)

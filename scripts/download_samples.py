@@ -5,3 +5,6 @@ from utils import save_file
 
 save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/regionsWithoutService_historical.parquet',
           'samples/regionsWithoutService_historical.parquet')
+
+save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataMetrics_historical.csv',
+          'samples/dataMetrics_historical.csv')

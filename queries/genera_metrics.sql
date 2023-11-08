@@ -1,13 +1,19 @@
 with initial_table as (
-    select
-        strptime(timestamp_saved, '%m/%d/%Y %I:%M %p') as timestamp_saved,
-        dataFechaActualizado as "timestamp",
-        Index as "index",
-        "Desc" as "desc",
-        "value",
-    -- from read_csv_auto('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataMetrics_historical.csv')
-    from read_csv_auto('samples/dataMetrics_historical.csv')
+select
+    row_number() over (partition by "timestamp", "index", "desc") as row_num,
+    *
+from genera_metrics_saves
+),
+
+one_save_per_timestamp as (
+select * exclude row_num
+from initial_table
+where row_num = 1
 )
 
+-- TODO: Incluir NULLs para timestamps no guardados.
+-- Q: cuan frecuente se guardan?
+-- better Q: Hay un intervalo frecuente at all??
+
 select *
-from initial_table
+from one_save_per_timestamp

@@ -26,5 +26,9 @@ print(
 )
 
 print(
+   create_table('genera_metrics_saves')
+)
+
+print(
    create_table('genera_metrics')
 )

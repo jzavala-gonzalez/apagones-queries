@@ -32,3 +32,11 @@ print(
 print(
    create_table('genera_metrics')
 )
+
+print(
+   create_table('genera_by_fuel_saves')
+)
+
+print(
+   create_table('genera_by_fuel')
+)

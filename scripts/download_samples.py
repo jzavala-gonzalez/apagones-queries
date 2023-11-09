@@ -8,3 +8,6 @@ save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main
 
 save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataMetrics_historical.csv',
           'samples/dataMetrics_historical.csv')
+
+save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataByFuel_historical.csv',
+          'samples/dataByFuel_historical.csv')

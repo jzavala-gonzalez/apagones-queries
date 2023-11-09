@@ -3,7 +3,9 @@
 La gráfica que GeneraPR presenta en [su página](https://genera-pr.com/data-generacion) como "Energía generada por fuente de combustible". Es solo la proporción de cada fuente combustible, no los totales crudos.
 
 ## Schema
-Tabla: genera_metrics
+
+**Tabla:** genera_by_fuel
+
 
 | column_name                        | column_type | null |
 |------------------------------------|-------------|------|

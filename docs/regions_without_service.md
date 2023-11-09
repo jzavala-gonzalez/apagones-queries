@@ -3,7 +3,7 @@
 La tabla verde de LUMA Energy que actualizan en su página ["Estatus del servicio"](https://miluma.lumapr.com/outages/serviceStatus) cada 5 minutos. Valores históricos desde finales de Julio 2023.
 
 ## Schema
-Tabla: regions_without_service
+**Tabla:** regions_without_service
 
 | column_name                        | column_type | null |
 |------------------------------------|-------------|------|

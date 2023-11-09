@@ -3,7 +3,7 @@
 La tabla iniciales que GeneraPR presenta en [su página](https://genera-pr.com/data-generacion) pero con datos adicionales que ellos excluyen de su tabla.
 
 ## Schema
-Tabla: genera_metrics
+**Tabla:** genera_metrics
 
 | column_name                        | column_type | null |
 |------------------------------------|-------------|------|

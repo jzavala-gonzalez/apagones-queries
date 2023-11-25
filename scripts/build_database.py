@@ -56,3 +56,14 @@ print(
 print(
    create_table('genera_load_per_site')
 )
+
+# Drop tablas que incluyen los duplicados originales
+con.execute(
+'''
+drop table regions_without_service_saves;
+drop table genera_metrics_saves;
+drop table genera_by_fuel_saves;
+drop table genera_fuel_cost_saves;
+drop table genera_load_per_site_saves;
+'''
+)

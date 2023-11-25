@@ -40,3 +40,11 @@ print(
 print(
    create_table('genera_by_fuel')
 )
+
+print(
+   create_table('genera_fuel_cost_saves')
+)
+
+print(
+   create_table('genera_fuel_cost')
+)

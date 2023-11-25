@@ -48,3 +48,11 @@ print(
 print(
    create_table('genera_fuel_cost')
 )
+
+print(
+   create_table('genera_load_per_site_saves')
+)
+
+print(
+   create_table('genera_load_per_site')
+)

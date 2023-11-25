@@ -14,3 +14,6 @@ save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main
 
 save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataFuelCost_historical.csv',
           'samples/dataFuelCost_historical.csv')
+
+save_file('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataLoadPerSite_historical.parquet',
+          'samples/dataLoadPerSite_historical.parquet')

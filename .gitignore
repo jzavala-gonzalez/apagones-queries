@@ -1,4 +1,6 @@
 .DS_Store
+*.db.wal
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

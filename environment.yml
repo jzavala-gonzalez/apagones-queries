@@ -5,8 +5,8 @@ channels:
 dependencies:
   - brotli-python=1.1.0=py311ha891d26_1
   - bzip2=1.0.8=h3422bc3_4
-  - ca-certificates=2023.7.22=hf0a4a13_0
-  - certifi=2023.7.22=pyhd8ed1ab_0
+  - ca-certificates=2023.11.17=hf0a4a13_0
+  - certifi=2023.11.17=pyhd8ed1ab_0
   - charset-normalizer=3.3.2=pyhd8ed1ab_0
   - idna=3.4=pyhd8ed1ab_0
   - libblas=3.9.0=19_osxarm64_openblas
@@ -23,12 +23,13 @@ dependencies:
   - llvm-openmp=17.0.4=hcd81f8e_0
   - ncurses=6.4=h463b476_2
   - numpy=1.26.0=py311hb8f3215_0
-  - openssl=3.1.4=h0d3ecfb_0
+  - openssl=3.2.0=h0d3ecfb_1
   - packaging=23.2=pyhd8ed1ab_0
   - pip=23.3.1=pyhd8ed1ab_0
   - polars=0.19.12=py311hcca7419_0
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.11.6=h47c9636_0_cpython
+  - python-dotenv=1.0.0=pyhd8ed1ab_1
   - python-duckdb=0.9.1=py311hbaf5611_0
   - python_abi=3.11=4_cp311
   - readline=8.2=h92ec313_1

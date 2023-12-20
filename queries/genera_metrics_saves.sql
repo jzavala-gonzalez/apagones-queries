@@ -6,7 +6,7 @@ with initial_table as (
         "Desc" as "desc",
         "value",
     -- from read_csv_auto('https://raw.githubusercontent.com/jzavala-gonzalez/scraping-luma/main/genera/historical/dataMetrics_historical.csv')
-    from read_csv_auto('samples/dataMetrics_historical.csv')
+    from read_csv_auto('samples/dataMetrics_historical.csv', SAMPLE_SIZE=-1)
 )
 
 select *

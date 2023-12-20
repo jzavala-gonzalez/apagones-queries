@@ -6,6 +6,13 @@
             "previewLimit": 50,
             "driver": "DuckDB",
             "databaseFilePath": ":memory:"
+        },
+        {
+            "name": "Built DB",
+            "accessMode": "Read Only",
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "databaseFilePath": "databases/test.db"
         }
     ]
 }
